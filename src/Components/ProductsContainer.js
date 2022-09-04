@@ -10,6 +10,7 @@ const ProductsContainer = () => {
   const prod = useSelector((state) => {
     return state.productsall.products;
   });
+
   const dispatch = useDispatch();
 
   useEffect(() => {
